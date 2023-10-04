@@ -1,0 +1,12 @@
+@media screen and (max-width: 764px){ 
+    body{
+        background-image: url(/src/img/vKtQEl.png);
+        background-position: center;
+    }
+    div.galeria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 15vh;
+    }
+    
+}
+    
