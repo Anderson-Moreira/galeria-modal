@@ -6,10 +6,7 @@
 }
 
 body {
- background: url(/src/img/desktop-wallpaper-fantasy-the-legend-of-zelda-hyrule-historia-paisagem-planos-de-fundo.jpg);
- background-size: cover;
- background-position: center;
- background-attachment: fixed; 
+background-color: rgb(19, 80, 19);
 
 }
 
@@ -22,6 +19,8 @@ div.galeria-modal {
     left: 0;
     padding: 4%;
     visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.3s;
     z-index: 5;
 }
 
